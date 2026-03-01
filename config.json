@@ -1,0 +1,37 @@
+{
+    "name": "Microsoft Teams Integration",
+    "description": "Integrate Microsoft Teams meetings with LMS courses",
+    "version": "1.0.0",
+    "TEAMS_TENANT_ID": "",
+    "TEAMS_CLIENT_ID": "",
+    "TEAMS_CLIENT_SECRET": "",
+    "TEAMS_USER_ID": "",
+    "metadata": {
+        "fields": {
+            "TEAMS_USER_ID": {
+                "type": "text",
+                "label": "TEAMS_USER_ID",
+                "placeholder": "Enter the Object ID of the Microsoft 365 user to host meetings",
+                "required": true
+            },
+            "TEAMS_TENANT_ID": {
+                "type": "text",
+                "label": "TEAMS_TENANT_ID",
+                "placeholder": "Enter your Microsoft Teams Tenant ID",
+                "required": true
+            },
+            "TEAMS_CLIENT_ID": {
+                "type": "text",
+                "label": "TEAMS_CLIENT_ID",
+                "placeholder": "Enter your Microsoft Teams Client ID",
+                "required": true
+            },
+            "TEAMS_CLIENT_SECRET": {
+                "type": "password",
+                "label": "TEAMS_CLIENT_SECRET",
+                "placeholder": "Enter your Microsoft Teams Client Secret",
+                "required": true
+            }
+        }
+    }
+}
